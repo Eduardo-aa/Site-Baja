@@ -1,0 +1,193 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #000000;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.item-img {
+    width: 50%;
+    margin-left: 100px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.menu {
+    display: flex;
+    margin-bottom: 10px;
+    align-items: end;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 16px;
+}
+main { /*Usado em contato.html e em obrigado.html*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   flex-direction: column;
+   
+}
+.container-box {
+    display: flex;
+    
+    justify-content: center;
+   flex-direction: column;
+   padding: 10px 45px;
+   background-color: black;
+   width: 500px;
+   margin: 20px 0 20px 0;
+   box-shadow: 12px 10px 12px 0px rgba(214,34,34,0.75);
+-webkit-box-shadow: 12px 10px 12px 0px rgba(214,34,34,0.75);
+-moz-box-shadow: 12px 10px 12px 0px rgba(214,34,34,0.75);;
+  
+}
+
+.container-box h1 {
+    color: white;
+    text-align: center;
+
+}
+
+form label {
+    color: white;
+   
+}
+
+form input {
+    width: 96%;
+    margin-left: 10px;
+    outline: none;
+    padding: 15px;
+    border: 0;
+    margin-bottom: 20px;
+    font-size: 15px;
+    transition: all 0.5s;
+}
+form input:focus{
+    border-radius: 16px;
+}
+
+div form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+form textarea {
+    padding: 10px;
+    outline: none;
+    margin-left: 10px;
+    font-size: 15px;
+    margin-bottom: 30px;
+    transition: all 0.5s;
+}
+form textarea:focus {
+    border-radius: 16px;
+}
+
+form button {
+    padding: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: transparent;
+    border: 2px solid #f5f5f5;
+    color: #f5f5f5;
+    transition: all 1s;
+    margin-bottom: 20px;
+}
+form button:hover{
+    background-color: #f5f5f5;
+    color: black;
+    border-radius: 16px;
+}
+
+
+.box-rodape {
+    background-color: black;
+    height: 150px;
+    display: flex;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.box1 {
+    width: 50%;
+}
+
+.box-rodape p {
+    color: white;
+
+    margin-left: 100px;
+    display: block;
+}
+
+#contato-rodape {
+    padding: 10px 0 3px 0;
+}
+
+#copyright {
+    padding-top: 20px;
+}
+
+.box2 {
+    width: 50%;
+    padding-top: 10px;
+
+}
+/*Pagina obrigado*/
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: grey;
+}
+    
+
+nav button {
+    padding: 15px;
+    background-color: transparent;
+    margin-left: 200px;
+    height: 50px;
+    width: 80px;
+    font-size: 16px;
+    transition: all 1s;
+    cursor: pointer;
+    
+}
+nav button:hover {
+    background-color: white;
+    border-radius: 16px;
+    cursor: pointer;
+}
+nav button:hover a {
+    color: black;
+    cursor: pointer;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+}
+.obrigado {
+    font-size: 50px;
+    color: white;
+}
+nav p {
+    font-size: 20px;
+    padding: 0 0 20px 100px;
+    color: white;
+}

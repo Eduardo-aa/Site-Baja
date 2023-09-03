@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="css/contato.css">
+</head>
+
+<body>
+    <header>
+        <section class="container"><!--Seção do cabeçalho-->
+
+            <div class="item-img">
+                <img src="imagens/WhatsApp Image 2023-08-14 at 19.38.11.jpeg" alt="Logo Corsários Baja" width="85px"
+                    height="75px"><!--Imagem Logo-->
+            </div>
+            <div class="menu"><!--Menu-->
+                <div> <a href="http://127.0.0.1:5500/index.html">Home</a></div>
+                <div> <a href="#">Serviços</a></div>
+                <div> <a href="contato.html">Contato</a></div>
+                <div> <a href="#">Empresa</a></div>
+            </div>
+
+        </section>
+    </header>
+    <main>
+        <div class="container-box">
+            <div class="contato">
+                <h1>Contato</h1>
+                <form action="https://api.staticforms.xyz/submit" method="post">
+                    <label>Nome</label><br>
+                    <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off" required>
+                    <label>Email</label><br>
+                    <input type="email" name="email" placeholder="Digite seu e-mail" autocomplete="off" required>
+                    <label>Mensagem</label>
+                    <textarea name="message" id="" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
+                    <button type="submit" id="botão">Enviar</button>
+
+                    <input type="hidden" name="accessKey" value="510a5276-10fc-4773-aed2-e9abcc1affa2">
+                    <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/obrigado.html">
+                    
+                </form>
+            </div>
+        </div>
+    </main>
+
+</body>
+<footer>
+    <div class="box-rodape">
+        <div class="box1">
+            <p id="contato-rodape">E-mail: corsariosbaja@gmail.com</p>
+            <p>Telefone: (32) 4009-3023</p>
+            <p id="copyright">&copy Corsário Baja. Todos os direitos Reservados.</p>
+        </div>
+        <div class="box2">
+            <p>Rua Bernardo Mascarenhas, 1283 - Bairro Fábrica</p>
+            <p>CEP 36080-001</p>
+            <p>Juiz de Fora - MG</p>
+        </div>
+    </div>
+</footer>
+</html>

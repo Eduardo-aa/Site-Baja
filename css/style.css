@@ -1,0 +1,88 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+   
+}
+
+.container {
+    background-color: #000000;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.item-img {
+    width: 50%;
+    margin-left: 100px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.menu {
+    display: flex;
+    margin-bottom: 10px;
+    align-items: end;
+    
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 16px;
+}
+
+
+
+
+.conteudo-principal {
+    margin-left: 100px;
+}
+
+.conteudo-principal p {
+    max-width: 800px;
+    font-size: 14px;
+}
+
+iframe {
+    width: 350px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+.box-rodape {
+    background-color: black;
+    height: 150px;
+    display: flex;
+    margin-top: 10px;
+    font-size: 14px;
+    width: 0 auto;
+    flex-wrap: wrap;
+}
+
+.box1 {
+    width: 50%;
+}
+
+.box-rodape p {
+    color: white;
+   
+    margin-left: 100px;
+    display: block;
+}
+
+#contato-rodape {
+    padding: 10px 0 3px 0;
+}
+
+#copyright {
+    padding-top: 20px;
+}
+
+.box2 {
+    width: 50%;
+    padding-top: 10px;
+    
+}
